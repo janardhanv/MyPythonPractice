@@ -115,5 +115,73 @@ sqlalchemy.engine_from_config()
 
 
 import numpy
+import matplotlib
 
 import matplotlib
+import matplotlib.pyplot as plt
+plt.plot()#start viz 
+plt.axes()#add parameters to viz
+plt.show()#show viz
+plt.title
+plt.xlabel
+plt.xscale
+plt.ylabel
+plt.yscale
+plt.ylim#y limit 
+
+plt.bar()
+plt.box()
+plt.boxplot()
+plt.grid()
+plt.hist()
+plt.imshow()
+plt.pie()
+plt.scatter()
+
+plt.figure() #draw new fig
+plt.savefig()
+plt.draw() #update figure
+plt.clf #(clear current figure)
+plt.close()
+import numpy as np
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3, 4])
+plt.ylabel('some numbers')
+plt.show()
+
+plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
+plt.axis([0, 6, 0, 20])
+plt.show()
+
+data = {'a': np.arange(50),
+        'c': np.random.randint(0, 50, 50),
+        'd': np.random.randn(50)}
+data['b'] = data['a'] + 10 * np.random.randn(50)
+data['d'] = np.abs(data['d']) * 100
+plt.scatter('a', 'b', c='c', s='d', data=data)
+plt.xlabel('entry a')
+plt.ylabel('entry b')
+plt.show()
+
+t = np.arange(0., 5., 0.2)
+
+# red dashes, blue squares and green triangles
+plt.plot(t, t, 'r--', t, t**2, 'bs', t, t**3, 'g^')
+plt.show()
+
+#Plotting with categorical variables
+names = ['group_a', 'group_b', 'group_c']
+values = [1, 10, 100]
+
+plt.figure(figsize=(9, 3))
+
+plt.subplot(131)
+plt.bar(names, values)
+plt.subplot(132)
+plt.scatter(names, values)
+plt.subplot(133)
+plt.plot(names, values)
+plt.suptitle('Categorical Plotting')
+plt.show()
+
+
