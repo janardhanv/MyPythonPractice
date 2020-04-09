@@ -1,0 +1,119 @@
+import pandas as pd
+pd.DataFrame
+pd.merge
+pd.pivot
+pd.pivot_table
+
+pd.unique
+pd.value_counts
+pd.isna()
+pd.isnull()
+pd.Categorical()
+pd.CategoricalDtype()
+pd.CategoricalIndex()
+pd.Grouper()
+pd.HDFStore()
+pd.concat()
+pd.crosstab()
+pd.merge_ordered()
+pd.testing.assert_frame_equal()
+
+pd.read_csv
+pd.read_excel
+pd.read_json
+pd.read_pickle
+pd.read_sql_query
+pd.read_sql
+
+pd.DataFrame().to_csv()
+pd.DataFrame().to_json()
+pd.DataFrame().to_parquet()
+pd.DataFrame().to_pickle()
+pd.DataFrame().to_sql()
+
+pd.DataFrame().take()
+pd.DataFrame().agg()
+pd.DataFrame().aggregate()
+pd.DataFrame().apply()
+pd.DataFrame().asof()
+pd.DataFrame().corr()
+pd.DataFrame().corrwith()
+pd.DataFrame().count()
+pd.DataFrame().diff()
+pd.DataFrame().drop()
+pd.DataFrame().drop_duplicates()
+pd.DataFrame().dropna()
+pd.DataFrame().droplevel()
+pd.DataFrame().explode()
+pd.DataFrame().fillna()
+pd.DataFrame().filter()
+pd.DataFrame().first()
+pd.DataFrame().head()
+pd.DataFrame().get_dtype_counts()
+pd.DataFrame().get_ftype_counts()
+pd.DataFrame().get_values()
+pd.DataFrame().groupby()
+pd.DataFrame().iteritems
+pd.DataFrame().iterrows
+pd.DataFrame().lookup()
+pd.DataFrame().notna()
+pd.DataFrame().nunique()
+pd.DataFrame().query()
+pd.DataFrame().rank()
+pd.DataFrame().rename()
+pd.DataFrame().replace()
+pd.DataFrame().resample()
+pd.DataFrame().reset_index()
+pd.DataFrame().sample()
+pd.DataFrame().select_dtypes()
+pd.DataFrame().shape()
+pd.DataFrame().sort_values()
+pd.DataFrame().stack()
+pd.DataFrame().where()
+pd.DataFrame().unstack()
+pd.DataFrame().update()
+pd.DataFrame().values()
+
+import json
+json.dump()
+json.dumps()
+json.load()
+json.loads()
+
+
+import requests as re
+re.Request
+re.get
+re.post
+re.put
+re.session()
+re.HTTPError.response
+re.Response
+
+import flask 
+import flask.app 
+import flask.blueprints
+import flask.json
+import flask.sessions
+import flask.debughelpers
+import flask.logging
+import flask.testing
+import flask.wrappers
+import flask.config
+import flask_sqlalchemy
+flask_sqlalchemy.Model
+flask_sqlalchemy.SQLAlchemy
+flask_sqlalchemy.BaseQuery
+import flask.views
+import flask_user
+
+import sqlalchemy
+sqlalchemy.create_engine
+engine=sqlalchemy.create_engine("postgresql://scott:tiger@localhost/test")
+engine.BaseQuery
+sqlalchemy.engine_from_config()
+
+
+import numpy
+
+import matplotlib
